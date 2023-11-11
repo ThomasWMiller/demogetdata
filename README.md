@@ -1,6 +1,6 @@
 # demogetdata 
 
-Get Data is an incomplete but simple information application intended to be run on localhost port 3000. It retrieves data from a single web page and saves those data in a plain text file with the **html** extension. Revisions of the app are left as exercises for students. See the list at the end of this writeup.
+This is an incomplete but simple information application intended to be run on localhost port 3000. It retrieves data from a single web page and saves those data in a plain text file with the **html** extension. Revisions of the app are left as exercises for students. See the list at the end of this writeup.
 
 Students new to Go can learn more about the language at the website [*Learning Go for Data Science*](https://msdsgo.netlify.app/). 
 
@@ -12,9 +12,9 @@ This should provide a message in the command/terminal window indicating that the
 ```
 localhost:3000
 ```
-The Get Data app asks the user to enter a web address (URL), gathers data from that web page, and saves those data in a local HTML file under the **webpages** directory on the user's computer. The user closes the server by typing control/command C.
+This app asks the user to enter a web address (URL), gathers data from that web page, and saves those data in a local HTML file under the **webpages** directory on the user's computer. The user closes the server by typing control/command C.
 
-The Get Data application uses server-side rendering and the Go standard library [html/template](https://pkg.go.dev/html/template). This demo uses HTML without any CSS styling. The focus is on http server operations.
+This application uses server-side rendering and the Go standard library [html/template](https://pkg.go.dev/html/template). This demo uses HTML without any CSS styling. The focus is on http server operations.
 
 Information about Go templates is available from various sources, including
 - Go documentation at [https://golang.org/pkg/html/template](https://golang.org/pkg/html/template)
