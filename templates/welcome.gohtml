@@ -1,0 +1,18 @@
+<h1>Welcome to Get Data App</h1>
+<p>This application gathers data from a web page and stores those data in an HTML file. All the user needs to do is enter a valid web address (URL).</p> 
+
+<p>A popular web address for data science students is <strong>https://msdsgo.netlify.app</strong>. If the user enters this address in the input field below, the app will retrieve the HTML text of the home page for the <strong><em>Learning Go for Data Science</em></strong> site and store those data in a local HTML file.<p> 
+<script>
+console.log("Welcome page sent to user/client using a Go template")
+</script>
+<form action="/" method="post">
+    <div>
+        <label>Enter web address (URL)</label>
+        <input name="url" id="url" type="url" placeholder="https://msdsgo.netlify.app" required autocomplete="url"/>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+</form>    
+<script>
+console.log("Form sent to user/client using a Go template")
+</script>
