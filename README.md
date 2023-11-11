@@ -1,6 +1,6 @@
 # demogetdata 
 
-Get Data is an incomplete but simple information application intended to be run on localhost port 3000. It retrieves data from a single web page and saves those data in a text/html file. Extensions to the app are left as exercises for the student. See the list at the end of this writeup.
+Get Data is an incomplete but simple information application intended to be run on localhost port 3000. It retrieves data from a single web page and saves those data in a plain text file with the **html** extension. Revisions of the app are left as exercises for the student. See the list at the end of this writeup.
 
 Students new to Go can learn more about the language at the website [*Learning Go for Data Science*](https://msdsgo.netlify.app/). 
 
