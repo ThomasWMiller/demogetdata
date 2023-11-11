@@ -1,6 +1,6 @@
 # demogetdata 
 
-Get Data is an incomplete but simple information application intended to be run on localhost port 3000. It retrieves data from a single web page and saves those data in a plain text file with the **html** extension. Revisions of the app are left as exercises for the student. See the list at the end of this writeup.
+Get Data is an incomplete but simple information application intended to be run on localhost port 3000. It retrieves data from a single web page and saves those data in a plain text file with the **html** extension. Revisions of the app are left as exercises for students. See the list at the end of this writeup.
 
 Students new to Go can learn more about the language at the website [*Learning Go for Data Science*](https://msdsgo.netlify.app/). 
 
@@ -25,7 +25,7 @@ Information about HTML is available at [https://www.w3schools.com/html/](https:/
 
 Additional information about web apps and server-side rendering is available under *Building Systems and Services* on the website [*Learning Go for Data Science*](https://msdsgo.netlify.app).
 
-#### Exercises for the student
+#### Exercises for students
 - Currently, the app reports an error with the server still running, and the user closes the server by typing control/command C. Find a way to gracefully shut down the server after the data from one web page have been saved. Hint: Use [func (*Server) Shutdown](https://pkg.go.dev/net/http#Server.Shutdown) and the [context](https://pkg.go.dev/context) package.
 - Add navigation and routing to the app, so the **Enter web address** form is on a separate web page.
 - Use Go **html/template** more fully, so the url from **Enter web address** is a template variable.
