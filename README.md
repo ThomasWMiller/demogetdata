@@ -32,7 +32,7 @@ Additional information about web apps and server-side rendering is available und
 - Place the the **Enter web address** form in a loop, so data may be collected from many web pages and stored in separate files under the **webpages** directory. Provide a unique, valid file name for each saved file based on text from each web page url.
 - Rather than placing the entire HTML body of the web page in the file stored under the **webpages** directory, scape the body text, dropping HTML tags, file formatting, and data of little information value. The thinking here is that collected data from web pages will be used in a subsequent information app or knowledge base. Hint: Useful text is likely to be found within heading and paragraph tags, rather than anchor, style, and script tags.
 - Add unit tests using [testing](https://pkg.go.dev/testing) from the Go standard library.
-- Add styling to the site with cascading style sheets (CSS), [tailwind](https://tailwindcss.com/), or a components library (in CSS or tailwind). Ensure that the site is responsive, so it looks good and works well on desktop, tablet, and smartphone displays.
+- Add styling to the site with cascading style sheets (CSS), [Tailwind](https://tailwindcss.com/), or a components library (in CSS or Tailwind). Ensure that the site is responsive, so it looks good and works well on desktop, tablet, and smartphone displays. Note: Tailwind and Tailwind-compliant components are responsive, as are established CSS component libraries such as [Bootstrap](https://getbootstrap.com/) and [Material Design](https://m3.material.io/).
 - Further develop the app so it becomes a user interface to web crawling and scraping, perhaps with the [Colly scraping framework](https://pkg.go.dev/github.com/gocolly/colly/v2).
 
 
